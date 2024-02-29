@@ -1,14 +1,10 @@
 package epsum.curso.git;
 
 
+<<<<<<< HEAD
 
 public class Conflicto {    
     //Michael
     //David 
-    // Soy Luis
-    // Soy Sekan
-    // soy profe
- //aaaaaaa 
- ///gkgkgkjgjg
-
-}
+  jsjjsjsjs
+>>>>>>> 36726a85bfaf950fa5da48533cbb2636bfbca802
