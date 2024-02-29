@@ -1,8 +1,8 @@
 package epsum.curso.git;
 
-public class Conflicto {
-    public static void main(String[] args){
-        //David 
-    }
+public class Conflicto {    
+ //David 
+//Soy Sekan
+//soy profe 
 
 }
