@@ -8,19 +8,12 @@ public class Conflicto {
 
 /// Soy Martin //
 
+//soy marcos
 //Soy Nour 
-
-    // Soy Luis
+// Soy Luis
 //Soy Sekan
 //soy profe 
-
+//soy danieliiitaaa
 
     
-    
-
-
-
-
-
-
-}
+    }
