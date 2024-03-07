@@ -6,6 +6,7 @@ public class Conflicto {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Julio
 //David 
 // profe
@@ -17,6 +18,9 @@ public class Conflicto {
 =======
 	//Sarita la pocha
 >>>>>>> c0cf762865a6002799d5a0d85ac72f464ec9b81a
+=======
+	//Sarita
+>>>>>>> ab2a969d42e62c5f84f9824ccdb67839aa294fcd
 	//Luis
 	//profe
 	// <3 Irene <3
