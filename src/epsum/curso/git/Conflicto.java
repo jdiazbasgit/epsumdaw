@@ -3,7 +3,7 @@ package epsum.curso.git;
 public class Conflicto {
 //Michael
     //David 
-	//Sara
+	//Sarita la pocha
 	//Luis
 	//profe
 	// <3 Irene <3
@@ -14,4 +14,5 @@ public class Conflicto {
 //Sekan
 //Carlos P
 //Daniel
+	
 }
