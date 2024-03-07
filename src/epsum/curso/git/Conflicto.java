@@ -5,6 +5,7 @@ public class Conflicto {
     //David 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Julio
 //David 
 // profe
@@ -13,6 +14,9 @@ public class Conflicto {
 =======
 	//Sara
 >>>>>>> 77326887d839a66b2d14064386106dc057077835
+=======
+	//Sarita la pocha
+>>>>>>> c0cf762865a6002799d5a0d85ac72f464ec9b81a
 	//Luis
 	//profe
 	// <3 Irene <3
@@ -27,8 +31,12 @@ public class Conflicto {
 //Carlos P
 //Daniel
 <<<<<<< HEAD
+<<<<<<< HEAD
 	// SARA
 >>>>>>> 070971fa6ff3cdfe386bd485bd8b3e600de25119
 =======
 >>>>>>> 77326887d839a66b2d14064386106dc057077835
+=======
+	
+>>>>>>> c0cf762865a6002799d5a0d85ac72f464ec9b81a
 }
