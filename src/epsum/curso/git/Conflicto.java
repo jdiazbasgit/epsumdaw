@@ -1,14 +1,10 @@
 package epsum.curso.git;
 
-
-
-
-
 public class Conflicto {
 
 //Michael
-    //David 
-	// profe
+//David 
+// profe
 
 }
     
