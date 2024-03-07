@@ -8,9 +8,12 @@ public class Conflicto {
 // <3 Irene <3
 //David 
 //Luis
+    //David 
+	//Sarita
 //David Rodríguez de lope López
 // Martin
 //Sekan
 //Carlos P
-
+//Daniel
+	
 }
