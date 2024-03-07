@@ -3,17 +3,19 @@ package epsum.curso.git;
 public class Conflicto {
 //Michael
     //David 
-	//Sarita
+//Julio
+//David 
+// profe
+
 	//Luis
 	//profe
 	// <3 Irene <3
 //David Rodríguez de lope López
 // Martin
-// antonio
-//nour
 //Sekan
+
 //Carlos P
 //Daniel
-	//Michael 2
+	//Michael 3
 	
 }
