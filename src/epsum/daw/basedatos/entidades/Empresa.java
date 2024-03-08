@@ -17,6 +17,6 @@ public class Empresa {
 	
 	private  String nombre;
 	
-	private float cif;
+	private String cif;
 
 }
