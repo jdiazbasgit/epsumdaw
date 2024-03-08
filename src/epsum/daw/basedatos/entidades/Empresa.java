@@ -14,8 +14,10 @@ public class Empresa {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	
+	@Column(length = 45)
 	private String nombre;
 	
+	@Column(length = 9)
 	private String cif;
 	
 }

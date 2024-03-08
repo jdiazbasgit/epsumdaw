@@ -15,5 +15,6 @@ public class EstadoCivil {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	
+	@Column(length = 45)
 	private String descripcion;
 }
