@@ -15,8 +15,6 @@ public class Hijo {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	
-	
 	private int chicos;
-	
 	private int chicas;
 }
