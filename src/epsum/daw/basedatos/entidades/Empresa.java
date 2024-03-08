@@ -8,13 +8,14 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Cargos")
-public class Cargo {
-
+@Table(name = "Empresas")
+public class Empresa {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	
-	private String descripcion;
+	private String nombre;
+	
+	private String cif;
+	
 }
-

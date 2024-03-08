@@ -8,8 +8,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Cargos")
-public class Cargo {
+@Table(name = "EstadosCiviles")
+public class EstadoCivil {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,4 +17,3 @@ public class Cargo {
 	
 	private String descripcion;
 }
-
