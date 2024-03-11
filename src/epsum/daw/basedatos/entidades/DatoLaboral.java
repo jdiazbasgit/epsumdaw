@@ -1,5 +1,6 @@
 package epsum.daw.basedatos.entidades;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -23,7 +24,5 @@ public class DatoLaboral {
 		this.salario = salario;
 		this.cargo = cargo;
 	}
-
-	
 
 }
