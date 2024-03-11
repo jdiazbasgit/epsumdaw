@@ -16,5 +16,5 @@ public class Cargo {
 	private int id;
 	
 	private String descripcion;
-
+	
 }
