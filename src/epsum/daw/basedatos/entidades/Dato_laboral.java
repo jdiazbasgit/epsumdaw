@@ -19,13 +19,37 @@ public class Dato_laboral {
 	private int salario;
 	
 	@ManyToOne
-	private Cargo micargo;
+	private Cargo cargo;
 
-	public Dato_laboral(int id, int salario, Cargo micargo) {
+	public Dato_laboral(int id, int salario, Cargo cargo) {
 		super();
 		this.id = id;
 		this.salario = salario;
-		this.micargo = micargo;
+		this.cargo = cargo;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getSalario() {
+		return salario;
+	}
+
+	public void setSalario(int salario) {
+		this.salario = salario;
+	}
+
+	public Cargo getCargo() {
+		return cargo;
+	}
+
+	public void setCargo(Cargo cargo) {
+		this.cargo = cargo;
 	}
 	
 	
