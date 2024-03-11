@@ -1,5 +1,6 @@
 package epsum.daw.basedatos.entidades;
 
+<<<<<<< HEAD
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -19,3 +20,8 @@ public class Cargo {
 	private String descripcion;
 }
 
+=======
+public class Cargo {
+
+}
+>>>>>>> refs/remotes/origin/basedatos
