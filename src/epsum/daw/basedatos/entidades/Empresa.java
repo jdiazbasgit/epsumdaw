@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "empresa")
+@Table(name="empresas")
 public class Empresa {
 	
 	@Id
@@ -17,8 +17,7 @@ public class Empresa {
 	private int id;
 	
 	private String nombre;
+
 	
 	private String cif;
-
-
 }
