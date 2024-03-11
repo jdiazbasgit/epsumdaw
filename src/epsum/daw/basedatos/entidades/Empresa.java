@@ -1,5 +1,6 @@
 package epsum.daw.basedatos.entidades;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,5 +15,5 @@ public class Empresa {
 	private int id;
 	private String nombre; 
 	private String cif; 
-
 }
+
