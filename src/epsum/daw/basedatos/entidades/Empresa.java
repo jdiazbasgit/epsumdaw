@@ -14,6 +14,4 @@ public class Empresa {
 	private int id;
 	private String nombre;
 	private String cif;
-	
-	
 }
