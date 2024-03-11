@@ -1,6 +1,6 @@
 package epsum.daw.basedatos.entidades;
 
-<<<<<<< HEAD
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,8 +17,4 @@ public class EstadoCivil {
 	private int id;
 	private String descripcion;
 	
-=======
-public class EstadoCivil {
-
->>>>>>> 5877d70e69482a064805aadd042c013408afcca4
 }
