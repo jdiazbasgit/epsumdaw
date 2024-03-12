@@ -1,6 +1,5 @@
 package epsum.daw.basedatos.entidades;
 
-<<<<<<< HEAD
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,8 +17,4 @@ public class EstadoCivil {
 	
 	@Column(length = 45)
 	private String descripcion;
-=======
-public class EstadoCivil {
-
->>>>>>> refs/remotes/origin/basedatos
 }
