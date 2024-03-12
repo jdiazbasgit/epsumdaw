@@ -7,7 +7,6 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-
 	@Entity
 	@Table(name = "datos_personales")
 	public class DatoPersonal {
@@ -21,6 +20,7 @@ import javax.persistence.Table;
 		private EstadoCivil estadoCivil;
 		
 		
+	
 		public DatoPersonal(int id, Hijo hijo, EstadoCivil estadoCivil) {
 			super();
 			this.id = id;
