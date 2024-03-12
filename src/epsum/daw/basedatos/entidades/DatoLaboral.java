@@ -19,13 +19,13 @@ public class DatoLaboral {
 	private int salario;
 
 	@ManyToOne
-	private Cargo micargo;
+	private Cargo cargo;
 
-	public DatoLaboral(int id, int salario, Cargo micargo) {
+	public DatoLaboral(int id, int salario, Cargo cargo) {
 		super();
 		this.id = id;
 		this.salario = salario;
-		this.micargo = micargo;
+		this.cargo = cargo;
 	}
 
 	public int getId() {
@@ -44,12 +44,14 @@ public class DatoLaboral {
 		this.salario = salario;
 	}
 
-	public Cargo getMicargo() {
-		return micargo;
+	public Cargo getCargo() {
+		return cargo;
 	}
 
-	public void setMicargo(Cargo micargo) {
-		this.micargo = micargo;
-}
+	public void setCargo(Cargo cargo) {
+		this.cargo = cargo;
+	}
+
+
 
 }
