@@ -14,15 +14,20 @@ import javax.persistence.Table;
 		@Id 
 		@GeneratedValue(strategy = GenerationType.AUTO)
 		private int id;
+		
+		@ManyToOne
+		private Hijo hijo;
+		@ManyToOne
+		private EstadoCivil estadoCivil;
+		
+		
+		public DatoPersonal(int id, Hijo hijo, EstadoCivil estadoCivil) {
+			super();
+			this.id = id;
+			this.hijo = hijo;
+			this.estadoCivil = estadoCivil;
+		}
 
-		private int salario;
-		private String descripcion;
-		
-		@ManyToOne
-		private Hijo mihijo;
-		@ManyToOne
-		private EstadoCivil miestadocivil;
-		
 		public int getId() {
 			return id;
 		}
@@ -31,45 +36,19 @@ import javax.persistence.Table;
 			this.id = id;
 		}
 
-		public int getSalario() {
-			return salario;
+		public Hijo getHijo() {
+			return hijo;
 		}
 
-		public void setSalario(int salario) {
-			this.salario = salario;
+		public void setHijo(Hijo hijo) {
+			this.hijo = hijo;
 		}
 
-		public String getDescripcion() {
-			return descripcion;
+		public EstadoCivil getEstadoCivil() {
+			return estadoCivil;
 		}
 
-		public void setDescripcion(String descripcion) {
-			this.descripcion = descripcion;
+		public void setEstadoCivil(EstadoCivil estadoCivil) {
+			this.estadoCivil = estadoCivil;
 		}
-
-		public Hijo getMihijo() {
-			return mihijo;
-		}
-
-		public void setMihijo(Hijo mihijo) {
-			this.mihijo = mihijo;
-		}
-
-		public DatoPersonal(int id, int salario, String descripcion, Hijo mihijo) {
-			super();
-			this.id = id;
-			this.salario = salario;
-			this.descripcion = descripcion;
-			this.mihijo = mihijo;
-		}
-
-		
-		public EstadoCivil getMiestadocivil() {
-			return miestadocivil;
-		}
-
-		public void setMiestadocivil(EstadoCivil miestadocivil) {
-			this.miestadocivil = miestadocivil;
-		}
-		
 }
